@@ -1,0 +1,463 @@
+
+.grids{
+
+    display: grid;
+    position: relative;
+    top: 600px;
+	grid-template-columns: repeat(12,1fr);
+	padding-left: 7.143%;
+	padding-right: 7.143%;
+	grid-gap:16px;
+}
+.grids>div{
+
+	border: 1px solid black;
+}
+.item-1{grid-column-start: 2;
+	grid-column-end:5;
+	}
+
+.item-2{grid-column-start: 9;
+	grid-column-end:12;}
+
+	.item-2> img{
+	object-fit: cover;
+  width: 100%;
+  max-height: 100%;
+
+}
+
+body{margin:0;height:10000px;
+
+
+}	
+
+
+.page-1{
+	background-color: white;
+	background-image: url(BG.png);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	
+
+width: 100vw; height:1080px;
+
+}
+
+p{font-size:25px;
+letter-spacing: 40;
+color:#1664FF;}
+#bgdiv{
+	position: absolute;
+    background-image: url(BACKGROUND.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    mix-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    height: 11872.5px;
+    width: 100vw;}
+
+
+#BACKGROUND {
+	
+	position: absolute;
+	width: 1920px;
+	height: 11872.5px;
+	left: 0px;
+	
+	overflow: visible;
+}
+.holder{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display:inline-block;
+	background-color:white;
+    border-radius:10px 10px 10px 0px;
+}
+		
+			
+
+
+.scrollbox {
+overflow-y: scroll; /* Add the ability to scroll */
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbox::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbox {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}  
+
+
+#A_licensed_manpower_agency_in_ {
+
+	z-index:100;
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+    left: 14.479%;
+  top:599px;
+    position: relative;	
+    overflow: visible;
+    width: 982px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.7em;
+    color: rgba(255,255,255,1);
+    text-transform: uppercase;
+}
+
+#nav {
+	z-index:100000;
+	position: fixed;
+	
+    width:100%;
+    height: 167px;
+    left: 0px;
+    background-color: white;
+    overflow: visible;
+}
+.scale75 {
+    -ms-transform: scale(0.75,0.75);
+    transform: scale(0.75,0.75);
+}
+#Group_490_bnw {
+    position: absolute;
+    
+    right: 17%;
+    top:63px;
+    overflow: visible;
+}
+#Group_387_bnx {
+    position: absolute;
+    width: 49px;
+    height: 56px;
+    left: 0px;
+    top: 0px;
+	overflow: visible;}
+	
+	
+#ID1_THANEX_web_page__HOME_ALL-_bm {
+    position: absolute;
+    width: 272px;
+    height: 93px;
+    left: 14.17%;
+    top: 44px;
+	overflow: visible;}
+#HeaderImage {
+	mix-blend-mode: multiply;
+	
+	width:1920px;
+	position: relative;
+	
+
+	top:0;
+	
+}
+	
+
+	
+
+
+#license {
+		position: absolute;
+		width: 145.183px;
+		height: 113.582px;
+		right: 23.85%;
+		top: 34px;
+		overflow: visible;
+	}
+	
+
+.grid{
+	display: grid;
+}
+
+/*iPhone X in portrait & landscape*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) { /* STYLES GO HERE */}
+
+/*iPhone X in landscape*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : landscape) { /* STYLES GO HERE */}
+
+/*iPhone X in portrait*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) { /* STYLES GO HERE */ }
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
+}
+
+
+
+.heightvar{
+	margin-top:-100px;
+	height:1220px;
+	
+	}
+
+	@media only screen and (max-width: 3600px){
+		.page-1{
+
+			width: 100vw; height:1080px;
+			
+			}
+
+		#HeaderImage {
+			width:3600px;
+			position: relative;
+				
+			
+				top: 50px; /*linked to #nav-top*/
+				height: 700px;
+			
+			}
+	
+	}
+	@media only screen and (max-width: 2880px){
+
+		#HeaderImage {
+			width:2880px;
+			position: relative;
+				
+			
+				top: 50px; /*linked to #nav-top*/
+				height: 700px;
+			
+			}
+	
+	}
+
+	@media only screen and (max-width: 1920px) {
+		
+.grids{
+
+    display: grid;
+    position: relative;
+    top:820px;
+	grid-template-columns: repeat(12,1fr);
+	padding-left: 7.143%;
+	padding-right: 7.143%;
+	grid-gap:16px;
+}
+
+		.heightvar{
+			height:913px;}
+
+			#HeaderImage {
+				width:100%;
+				position: absolute;
+					
+				
+					top: 50px; /*linked to #nav-top*/
+					height: 700px;
+				
+				}
+				
+			
+	}
+
+
+	@media only screen and (max-width: 1280px) {
+		
+
+			.grids {
+				display: grid;
+				position: relative;
+				top: 70px;
+				grid-template-columns: repeat(12,1fr);
+				padding-left: 7.143%;
+				padding-right: 7.143%;
+				grid-gap: 16px;
+			}
+		
+		#Group_490_bnw{
+			top: 44px;
+			right: 270px;
+
+		}
+		#license {
+			transform: scale(0.7867,0.7867);
+			top: 14px;
+			
+		}
+		#ID1_THANEX_web_page__HOME_ALL-_bm {
+			position: absolute;
+			width: 272px;
+			height: 93px;
+			left: 14.17%;
+			top: 24px;
+			overflow: visible;
+			transform: scale(0.7867,0.7867);
+		}
+		#nav {
+
+			z-index: 100000;
+			position: fixed;
+			width: 100%;
+			height: 132px;
+			left: 0px;
+			background-color: white;
+			overflow: visible;
+		}
+		
+
+		.heightvar{
+
+			
+			height: 700px;
+			
+			}
+
+			#HeaderImage {
+				width:1280px;
+				position: relative;
+					
+				
+					top: 50px; /*linked to #nav-top*/
+					height: 700px;
+				
+				}
+	}
+	@media only screen and (max-width: 790px) {
+		#license{
+		display:none;
+		}
+
+		#HeaderImage {
+			position: relative;
+				
+			
+				top: 150px;
+				height: 700px;
+			
+			}
+
+			.heightvar{
+
+			height:700px;
+		}
+	}
+
+
+
+	@media only screen and (max-width: 480px) {
+		#ID1_THANEX_web_page__HOME_ALL-_bm{
+		position: absolute;
+		transform: scale(0.7,0.7);
+		left: 0;
+		}
+
+		#nav {
+			
+			position: fixed;
+			top:0;
+			width:100%;
+			height: 115px;
+			left: 0px;
+			background-color: white;
+			overflow: visible;
+		}
+		#ID1_THANEX_web_page__HOME_ALL-_bm{
+			position: absolute;
+			transform: scale(1.1,1.1);
+			left:200px;
+			top: 10px;
+			}
+	
+			#Group_490_bnw{
+				top: 30px;
+				
+				
+			}
+
+			#HeaderImage {
+				position: relative;
+					height: 700px;
+					top: 60px;
+				
+				}
+				.heightvar{
+
+			height:700px;
+		}
+	
+	}
+
+	@media only screen and (max-width: 320px) {
+		#ID1_THANEX_web_page__HOME_ALL-_bm{
+			position: absolute;
+			transform: scale(1.1,1.1);
+			left:200px;
+			top: 10px;
+			}
+
+		.heightvar{
+
+		
+		}
+
+		#Group_490_bnw{
+			top: 30px;
+			
+			
+		}
+
+		#nav {
+			position: fixed;
+			
+			width:100%;
+			height: 67px;
+			left: 0px;
+			background-color: white;
+			overflow: visible;
+		}
+	
+	#HeaderImage {
+	position: relative;
+		
+	
+		top: 60px;
+	
+	}
+}

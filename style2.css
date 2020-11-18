@@ -1,0 +1,1798 @@
+.oke {
+    left: 11%;
+    transform: scale(.95);
+    position: relative;
+}
+
+textarea, input[type=text], input[type=email], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+  }
+
+  .rights{display:inline-block;
+	width:40%;
+	position: relative;
+
+	left:15%;	
+
+}
+  
+   input[type=submit] {
+	width: 30%;
+	background-color: #5f7aac;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	position:relative; left:65%;
+	
+
+  }
+  
+  input[type=submit]:hover {
+	width:30%;
+	background-color: #8e9ebd;
+
+	
+	
+  }
+  
+  form> div {
+	border-radius: 5px;
+  
+	padding: 20px;
+  }
+form {
+  width: 80%;
+  margin: 40px auto;
+}
+
+/* ======================== */
+/* FORM VALIDATOR CSS STYLE */
+/* ======================== */
+.form-input-error-msg {
+    display: none;
+    padding: 4px 0;
+    margin-bottom: 5px;
+    color: red;
+    font-weight: bold;
+    font-size: 0.8em;
+    overflow: hidden;
+}
+.form-input-error-msg.show-error {
+    display: block;
+}
+.alert.form-input-error-msg {
+    padding: 4px;
+    margin-bottom: 5px;
+    color: #a94442;
+    font-weight: bold;
+}
+.form-input-error-msg span.error-empty, 
+.form-input-error-msg span.error-wrong {
+    display: none;
+}
+.form-input-error-msg span.error-empty.show-error, 
+.form-input-error-msg span.error-wrong.show-error {
+    display: inline-block;
+}
+
+.error {
+    border-color: red;
+}
+
+.chartes{
+
+	/* justify-content: center; */
+	
+	position: relative;
+	
+	/* margin: auto; */
+	
+	left: 11%;
+	
+	top: -63px;
+	
+	transform: scale(0.93);
+	}
+	
+	.page-4{
+	
+	position: relative;
+	
+	width: 100%;
+	
+	top: 733px;
+	
+	background-image: url(BG.png);
+	}
+	
+	.page-3 {
+		position: relative;
+		width: 100%;
+		top: 756px;
+		background-image: url(BG.png);
+		height: 838px;
+	}
+	
+	.parallax {
+		width: 100%;
+		background-image: url("mapbg.png");
+		position: relative;
+		min-height: 1019px;
+		top: -206px;
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	
+	.hc2{
+	position: relative;
+	top:-1000px;
+	
+		
+	}
+	
+	.hc3{
+		position: relative;
+		top:0;
+		
+			
+		}
+	
+	.grid-cardse3{
+	
+		display:grid;
+		grid-template-columns: repeat(4,1fr);
+		grid-template-rows: repeat(2,240px);
+		grid-gap:16px;
+		position: relative;
+		margin-left:30%;
+		margin-right:30%;
+		
+		
+		}
+	.cardee2{display: inline-block;
+		width: 180px;
+		justify-items: center;
+	text-align:center;}
+		
+	
+	.grid-cardse{
+	
+	display:grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: repeat(2,240px);
+	grid-gap:16px;
+	position: relative;
+	margin-left:279px;
+	margin-right:279px;
+	
+	
+	}
+	
+	.c1{grid-area:1/1/2/2;}
+	
+	.c2{grid-area: 1/2/2/3;}
+	.c3{grid-area: 1/3/2/4;}
+	.c4{grid-area: 1/4/2/5;}
+	.c5{grid-area: 1/5/2/6;}
+	.spread{grid-area: 2/2/3/6;}
+	
+	
+	
+	.cardee>p{
+	
+	   
+		text-align: center;
+		
+	}
+	div > .cardee > img, img.cardimages2{
+		display:block;
+		margin:auto;
+		text-align: center;
+	
+	}
+
+	.whitebg{
+
+		background-color: white;
+	}
+	
+	
+	div > .cardee > img, img.cardimages{
+		display:block;
+		margin:auto;
+		max-height:70px;
+		max-width:100px;
+		
+	}
+	.cardee{
+		padding-top: 20px;
+		box-shadow: 1px 2px 3px 3px rgba(0,0,0,0.1) ;
+		border: 0px solid;
+		display:inline-block;
+	  
+		width:257px;
+		justify-items: center;
+		border-radius: 0px 30px 20px 10px;
+		height: 232px;
+	}
+	body{margin:0;font-family: 'Roboto', sans-serif;}
+	
+	h1 {
+		z-index:2;
+		color: white;
+		font-size: 50px;
+		position: relative;
+		top: -218px;
+		left: 14.5%;
+		margin: 0;
+		font-weight: 400;
+	}
+	
+	
+	.gimmespace>img {
+		position: relative;
+		top: 8px;
+		left: 8px;
+	}
+	
+	.headingcontainer {
+		top: -50px;
+		left: -80px;
+		z-index: -100;
+		height: 255px;
+		position: relative;
+		background-color: #215EA8;
+		width: 82.28%;
+		color: white;
+		border-radius: 110px;
+	}
+	
+	.h1{
+	
+	
+	
+	}
+	.see{
+	
+		border:1px solid black;
+	}
+	
+	span.gimmespace {
+		transform: scale(0.8);
+		height: 40px;
+		width: 40px;
+		background-color: #bbb;
+		border-radius: 50%;
+		display: inline-block;
+	}
+	.grids{
+	
+		display: grid;
+		position: relative;
+		top: 600px;
+		grid-template-columns: repeat(12,1fr);
+		padding-left: 7.143%;
+		padding-right: 7.143%;
+		grid-gap:16px;
+	}
+	.grids>div{
+	
+	
+	}
+	.item-1{grid-column-start: 2;
+		grid-column-end:5;
+		}
+	
+	.item-2{grid-column-start: 9;
+		grid-column-end:12;}
+	
+		.item-2> img{
+		object-fit: cover;
+	  width: 100%;
+	  max-height: 100%;
+	
+	}
+	.cent{width: 100%;
+		top: -60px;
+		position:relative; left:50%;
+		margin-left:-37%;
+		transform:scale(1);
+
+
+	}
+	body{margin:0;height:10000px;
+	
+	
+	}	
+	
+	
+	.page-1{
+		background-color: white;
+		background-image: url(BG.png);
+		background-size: cover;
+		background-position: center;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		
+	
+	width: 100vw; height:1080px;
+	
+	}
+	h2{font-size:32px;
+		color:#1664FF;
+		margin:0;
+	}
+	
+	.inline > h2{
+		position:relative;left:70px;
+	}
+	p{
+	
+	color:#1664FF;}
+	#bgdiv{
+		position: absolute;
+		background-image: url(BACKGROUND.png);
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center;
+		mix-blend-mode: luminosity;
+		background-repeat: no-repeat;
+		height: 11872.5px;
+		width: 100vw;}
+	
+	
+	#BACKGROUND {
+		
+		position: absolute;
+		width: 1920px;
+		height: 11872.5px;
+		left: 0px;
+		
+		overflow: visible;
+	}
+	span.gimmespace {
+		transform: scale(1);
+		position: relative;
+		left: 200px;
+		top: 15px;
+		height: 40px;
+		width: 40px;
+		background-color: #fff;
+		border-radius: 50%;
+		display: inline-block;
+	}
+	
+	.holder {
+		position: relative;
+	
+		transform: scale(1);
+		padding-top: 6px;
+		padding-bottom: 6px;
+		padding-left: 30px;
+		padding-right: 30px;
+		display: inline-block;
+		background-color: white;
+		border-radius: 0px 10px 10px 10px;
+		left: 0px;
+		top: 0px;
+		margin-right: 0px;
+		margin-bottom: 20px;
+		
+	}	
+				
+	
+	
+	.scrollbox {
+	overflow-y: scroll; /* Add the ability to scroll */
+	}
+	/* Hide scrollbar for Chrome, Safari and Opera */
+	.scrollbox::-webkit-scrollbar {
+		display: none;
+	}
+	
+	/* Hide scrollbar for IE, Edge and Firefox */
+	.scrollbox {
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+	}  
+
+	/* Hide scrollbar for Chrome, Safari and Opera */
+	.scrollbox1::-webkit-scrollbar {
+		display: none;
+	}
+	
+	/* Hide scrollbar for IE, Edge and Firefox */
+	.scrollbox1 {
+	-ms-overflow-style: none;  /* IE and Edge */
+	scrollbar-width: none;  /* Firefox */
+	}  
+	
+	
+	
+	#A_licensed_manpower_agency_in_ {
+	
+		z-index:100;
+		filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+		left: 14.479%;
+	  top:567px;
+		position: relative;	
+		overflow: visible;
+		width: 982px;
+		white-space: nowrap;
+		text-align: left;
+		font-family: Roboto;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 1.7em;
+		color: rgba(255,255,255,1);
+		text-transform: uppercase;
+	}
+	
+	#nav {
+		z-index:100000;
+		position: fixed;
+		
+		width:100%;
+		height: 167px;
+		left: 0px;
+		background-color: white;
+		overflow: visible;
+	}
+	.scale75 {
+		-ms-transform: scale(0.75,0.75);
+		transform: scale(0.75,0.75);
+	}
+	#Group_490_bnw {
+		position: absolute;
+		
+		right: 17%;
+		top:63px;
+		overflow: visible;
+	}
+	
+	
+	.inline{display: inline-block;}
+	#Group_387_bnx {
+		position: absolute;
+		width: 49px;
+		height: 56px;
+		left: 0px;
+		top: 0px;
+		overflow: visible;}
+		
+		
+	#ID1_THANEX_web_page__HOME_ALL-_bm {
+		position: absolute;
+		width: 272px;
+		height: 93px;
+		left: 13.17%;
+		top: 44px;
+		overflow: visible;}
+	#HeaderImage {
+		mix-blend-mode: multiply;
+		
+		width:1920px;
+		position: relative;
+		
+	
+		top:0;
+		
+	}
+		
+	
+		
+	
+	
+	#license {
+			position: absolute;
+			width: 145.183px;
+			height: 113.582px;
+			right: 23.85%;
+			top: 34px;
+			overflow: visible;
+		}
+		
+	
+	.grid{
+		display: grid;
+	}
+	
+	/*iPhone X in portrait & landscape*/
+	@media only screen 
+	and (min-device-width : 375px) 
+	and (max-device-width : 812px)
+	and (-webkit-device-pixel-ratio : 3) { /* STYLES GO HERE */}
+	
+	/*iPhone X in landscape*/
+	@media only screen 
+	and (min-device-width : 375px) 
+	and (max-device-width : 812px) 
+	and (-webkit-device-pixel-ratio : 3)
+	and (orientation : landscape) { /* STYLES GO HERE */}
+	
+	/*iPhone X in portrait*/
+	@media only screen 
+	and (min-device-width : 375px) 
+	and (max-device-width : 812px) 
+	and (-webkit-device-pixel-ratio : 3)
+	and (orientation : portrait) { /* STYLES GO HERE */ }
+	
+	/* Portrait and Landscape */
+	@media only screen 
+	  and (min-device-width: 320px) 
+	  and (max-device-width: 480px)
+	  and (-webkit-min-device-pixel-ratio: 2) {
+	
+	}
+	
+	/* Portrait */
+	@media only screen 
+	  and (min-device-width: 320px) 
+	  and (max-device-width: 480px)
+	  and (-webkit-min-device-pixel-ratio: 2)
+	  and (orientation: portrait) {
+	}
+	
+	/* Landscape */
+	@media only screen 
+	  and (min-device-width: 320px) 
+	  and (max-device-width: 480px)
+	  and (-webkit-min-device-pixel-ratio: 2)
+	  and (orientation: landscape) {
+	
+	}
+	
+	
+	
+	.heightvar{
+		margin-top:-100px;
+		height:1220px;
+		
+		}
+	
+		@media only screen and (max-width: 3600px){
+			.grid-cardse {
+				display: grid;
+				grid-template-columns: repeat(4,1fr);
+				grid-template-rows: repeat(2,240px);
+				grid-gap: 16px;
+				position: relative;
+				margin-left: 15%;
+				margin-right: 15%;
+			}
+
+
+			.page-1 {
+				background-color: white;
+				background-image: url("BG 2880.png");
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				width: 3300px;
+				height: 1800px;
+			}
+	
+			#HeaderImage {
+				width:3600px;
+				position: relative;
+					
+				
+					top: 50px; /*linked to #nav-top*/
+					height: 700px;
+				
+				}
+				.spread {
+					transform: scale(1.5);
+					grid-area: 2/2/3/6;
+					position: relative;
+					left: 20%;
+					top: 50px;
+				}
+		
+		}
+
+		@media only screen and (max-width: 2880px){
+			.lefts{    width: 30%;
+				display: inline-block;
+				left: 20%;
+				position: relative;
+			}
+
+		
+
+		.page-10{    position: relative;
+			top: 1030px;
+		background-image:url(BG.png);}
+
+			.disp2 {
+				z-index: 1000;
+				display: grid;
+				position: relative;
+				top: -681px;
+				left: 0;
+				grid-template-columns: repeat(18,1fr);
+				grid-template-rows: repeat(12,241px);
+			}
+
+			
+			.lowly {
+				position: relative;
+				top: -310px;
+			}
+			.next>img{    position: relative;
+				left: -881px;
+				width: 200%;}
+			.disp {
+				display: grid;
+				grid-template-columns: repeat(12,1fr);
+				grid-template-rows: repeat(12,241px);
+				position: relative;
+				top: -790px;
+			}
+
+			.arrowdown2{top:0;position: relative;}
+			.page-9>img{
+
+			
+				position: relative;
+				top: 200px;
+				width: 63%;
+				left: 100px;
+
+
+
+			}
+
+
+			
+			.page-4 {
+				position: relative;
+				width: 100%;
+				top: 1036px;
+				background-image: url(BG.png);
+			}
+	
+			.grids {
+				display: grid;
+				position: relative;
+				top: 600px;
+				grid-template-columns: repeat(12,1fr);
+				padding-left: 7.143%;
+				padding-right: 12.143%;
+				grid-gap: 32px;
+			}
+			.spread {
+				transform: scale(1.5);
+				grid-area: 2/2/3/6;
+				position: relative;
+				left: 20%;
+				top: 233px;
+			}
+	
+			.grid-cardse {
+				display: grid;
+				grid-template-columns: repeat(4,1fr);
+				grid-template-rows: repeat(2,240px);
+				grid-gap: 16px;
+				position: relative;
+				margin-left: 14%;
+				margin-right: 13%;
+			}
+			#license {
+				position: absolute;
+				width: 145.183px;
+				height: 113.582px;
+				right: 32.85%;
+				top: 36px;
+				overflow: visible;
+			}
+			
+	
+			#Group_490_bnw {
+				position: absolute;
+				right: 31%;
+				top: 63px;
+				overflow: visible;
+			}
+	
+			.grid-cardse3 {
+				display: grid;
+				grid-template-columns: repeat(4,1fr);
+				grid-template-rows: repeat(2,240px);
+				grid-gap: 16px;
+				position: relative;
+				margin-left: 30%;
+				top: 194px;
+				margin-right: 30%;
+			}
+	
+			.holder {
+				position: relative;
+				FONT-WEIGHT: 200;
+				transform: scale(2);
+				padding-top: 6px;
+				padding-bottom: 6px;
+				padding-left: 30px;
+				padding-right: 30px;
+				display: inline-block;
+				background-color: white;
+				border-radius: 0px 10px 10px 10px;
+				left: 20%;
+				top: 15px;
+				margin-right: 50px;
+				margin-bottom: 40px;
+			}
+			
+		}
+		@media only screen and (max-width: 2880px){
+
+.scrollbox1{   
+	width:100%;
+	transform: scale(1.5);
+    left: 48%;
+	top: 280px;
+	height: 250px;
+position: relative;
+overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbox1::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scrollbox1 {
+-ms-overflow-style: none;  /* IE and Edge */
+scrollbar-width: none;  /* Firefox */
+}  
+.cent {
+    width: 100%;
+    top: -60px;
+    position: relative;
+    left: 40%;
+    margin-left: -37%;
+    transform: scale(1.5);
+    left: 76%;
+    top: 100px;
+}
+			
+
+			
+
+
+			.disp{
+
+				display: grid;
+
+				grid-template-columns:repeat(12,1fr);
+				grid-template-rows: repeat(12,241px);
+							
+			}
+.ts1{transform:scale(0.5)}
+			.t1, .ts1{grid-area: 1/10/2/11;transform: scale(1.5);}
+			.t1{grid-area: 1/10/2/11;}
+			.t2{grid-area: 2/11/3/12;}
+			.t3{grid-area: 3/10/4/11;}
+			.t4{grid-area: 1/11/2/12;}
+			.t5{grid-area: 2/10/3/11;}
+			.t6{grid-area: 3/11/4/12;}
+
+		.page-9{	background-image: url("BG.png");
+    position: relative;
+    top: 1000px;
+    background-image: url(BG.png);
+    height: 1860px;
+}
+
+			.low{
+
+				position: relative;
+				top: 300px;
+			}
+
+			.imagescale{
+				width: 100%;
+				transform: scale(.7);
+				top: 300px;
+				position: relative;
+			}
+			.arrowdown{width: 200%;
+				position: relative;
+				top: 260px;}
+				.grid-cardse-4 {
+					display: grid;
+					grid-template-columns: repeat(4,1fr);
+					grid-template-rows: repeat(2,240px);
+					grid-gap: 16px;
+					grid-row-gap: 90px;
+					position: relative;
+					margin-left: 14%;
+					margin-right: 8%;
+					height: 650px;
+				}
+
+			.e1{grid-area: 1/1/2/2;}
+			.e2{grid-area: 1/2/2/3;}
+			.e3{grid-area: 1/3/2/4;}
+			.e4{grid-area: 1/4/2/5;}
+			.e5{grid-area: 2/1/3/2;}
+			.e6{grid-area: 2/2/3/3;}
+			.e7{grid-area: 2/3/3/4;}
+			.e8{grid-area: 2/2/3/3;}
+			.e9{grid-area: 3/2/4/3;}
+			.e10{grid-area: 3/3/4/4;}
+
+			.e11{grid-area: 2/3/3/4;}
+				
+			.e12{grid-area: 2/4/3/5;}
+
+					.page-7{
+
+							background-image: url(BG.png);
+		position: relative;
+		top: 1000px;
+		background-image: url(BG.png);
+		height: 1860px;
+}
+					.page-11{
+						position: relative;
+						top: 1334px;
+						background-image: url(BG.png);
+					}
+
+
+			.page-8{background-image: url(BG.png);
+				position: relative;
+				top: 940px;}
+
+			.page-6 {
+				/* top: 100px; */
+				position: relative;
+				width: 100%;
+				top: 980px;
+				background-image: url("BG.png");
+			}
+			.page-3 {
+				position: relative;
+				width: 100%;
+				left: 731px;
+				top: 954px;
+				
+				background-image: url(BG.png);
+				height: 887px;
+			}
+			
+
+
+			.page-2 {
+				/* top: 100px; */
+				position: relative;
+				width: 100%;
+				top: 969px;
+				background-image: url("BG.png");
+				z-index: 0;
+			}
+			.headingcontainer {
+				top: -50px;
+				left: -80px;
+				z-index: -100;
+				height: 191px;
+				position: relative;
+				background-color: #215EA8;
+				width: 90.28%;
+				color: white;
+				border-radius: 110px;
+				z-index: 0;
+			}
+
+			.page-5 {
+				/* top: 100px; */
+				position: relative;
+				width: 100%;
+				top: 936px;
+				background-image: url("BG.png");
+			}
+	
+			.page-2 {
+				/* top: 100px; */
+				position: relative;
+				width: 100%;
+				top: 921px;
+			}
+			
+			.page-4 {
+				position: relative;
+				width: 100%;
+				top: 1167px;
+				background-image: url(BG.png);
+				height: 1617px;
+			}
+			
+	
+			.item-1>span>.holder{transform: scale(5);}
+	
+	
+			span.gimmespace {
+				transform: scale(1.5);
+				position: relative;
+				left: 200px;
+				top: 15px;
+				height: 40px;
+				width: 40px;
+				background-color: #fff;
+				border-radius: 50%;
+				display: inline-block;}
+	
+				.page-1 {
+					background-color: white;
+					background-image: url("BG 2880.png");
+					background-size: cover;
+					background-position: center;
+					background-attachment: fixed;
+					background-repeat: no-repeat;
+					width: 2880px;
+					height: 1870px;
+				}
+	
+			#A_licensed_manpower_agency_in_ {font-size: 4rem;top:1000px;
+	
+	
+			}
+			
+	
+			#HeaderImage {
+				width:2880px;
+				position: relative;
+					
+				
+					top: 50px; /*linked to #nav-top*/
+					height: 700px;
+				
+				}
+
+				.chartes {
+					/* justify-content: center; */
+					position: relative;
+					/* margin: auto; */
+					left: 35%;
+					top: 136px;
+					transform: scale(1.4);
+				}
+		
+		}
+		@media only screen and (min-width: 1921px){
+		
+
+			.page-1{
+				background-color: white;
+				background-image: url("BG 2880.png");
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				width: 2880px;
+				height: 1867px;
+			}
+	
+
+
+		}
+		@media only screen and (min-width: 1920px) and (max-width: 3050px){
+	
+			
+			
+		
+	
+	}
+		@media only screen and (max-width: 1920px) {
+			.cent {width: 100%;
+				top: -60px;
+				position: relative;
+				left: 54%;
+				margin-left: -37%;
+				transform: scale(1);
+			}
+
+			.lefts{    width: 30%;
+				display: inline-block;
+				left: 20%;
+				position: relative;
+			}
+
+			.page-11 {
+				background-image: url(BG.png);
+				position: relative;
+				top: -550px;
+				background-image: url(BG.png);
+				height: 1855px;
+			}
+
+			
+
+			.lowly {
+				position: relative;
+				top: -150px;
+			}
+			.rtri{position: relative;
+				left: -640px;
+				width: 200%;}
+
+				.disp {
+					position: relative;
+					top: -429px;
+					left: -113px;
+					display: grid;
+					grid-template-columns: repeat(12,1fr);
+					grid-template-rows: repeat(12,241px);
+				}
+
+				.disp2 {
+					transform: scale(.7);
+					display: grid;
+					position: relative;
+					top: -1124px;
+					left: 117px;
+					grid-template-columns: repeat(12,1fr);
+					grid-template-rows: repeat(12,241px);
+				}
+
+			.arrowdown2{top:0;position: relative;}
+
+				.scrollbox1 {
+					width:100%;
+					TOP:0PX;
+					transform:scale(1);
+					height: 250px;
+					left: 22%;
+					position: relative;
+					overflow-y: scroll;
+				}
+							
+			.page-9>img {
+				position: relative;
+				top: 200px;
+				width: 58%;
+				left: 100px;
+			}
+			.next>img{    position: relative;
+				left: -640px;
+				width: 200%;}
+
+			.page-9 {
+				background-image: url(BG.png);
+				position: relative;
+				top: -190px;
+				background-image: url(BG.png);
+				height: 1855px;
+			}
+
+
+			.page-10 {
+				background-image: url(BG.png);
+				position: relative;
+				top: -706px;
+				background-image: url(BG.png);
+				height: 1855px;
+			}
+
+
+			
+			
+			.page-8 {
+				/* top: 100px; */
+				position: relative;
+				width: 100%;
+				top: -200px;
+				background-image: url(BG.png);
+			}
+
+			
+			.imagescale{
+				width: 100%;
+				transform: scale(.7);
+				top: 300px;
+				position: relative;
+			}
+			.arrowdown{width: 200%;
+				position: relative;
+				top: 260px;}
+			.page-7 {
+				/* top: 100px; */
+				position: relative;
+				width: 100%;
+				top: 270px;
+				background-image: url(BG.png);
+			}
+
+			#license {
+				position: absolute;
+				width: 145.183px;
+				height: 113.582px;
+				right: 24.85%;
+				top: 36px;
+				overflow: visible;
+			}
+	
+			.map{
+	
+position: relative;
+	
+top: -75px;
+	
+left: -86px;
+	
+transform: scale(0.85);
+	}
+	
+	.headingcontainer {
+		top: -50px;
+		left: -148px;
+		z-index: 1;
+		height: 191px;
+		position: relative;
+		background-color: #215EA8;
+		width: 95.28%;
+		color: white;
+		border-radius: 110px;
+	}
+			.page-2 {
+				/* top: 100px; */
+				position: relative;
+				width: 100%;
+				top: 1080px;
+			}
+			.grid-cardse {
+				top: -110px;
+				display: grid;
+				grid-template-columns: repeat(4,1fr);
+				grid-template-rows: repeat(2,240px);
+				grid-gap: 16px;
+				position: relative;
+				margin-left: 14%;
+				margin-right: 15%;
+			}
+	
+			#Group_490_bnw {
+				position: absolute;
+				right: 17%;
+				top: 63px;
+				overflow: visible;}
+			.spread {
+				transform: scale(1);
+				grid-area: 2/2/3/6;
+				position: relative;
+				left: 0px;
+				top: 50px;
+			}
+	
+	
+			.holder {
+				position: relative;
+				FONT-WEIGHT: 200;
+				transform: scale(1);
+				padding-top: 6px;
+				padding-bottom: 6px;
+				padding-left: 30px;
+				padding-right: 30px;
+				display: inline-block;
+				background-color: white;
+				border-radius: 0px 10px 10px 10px;
+				left: 0px;
+				top: 0px;
+				margin-right: 0px;
+				margin-bottom: 0px;
+			}
+			.page-3 {
+				position: relative;
+				width: 100%;
+				left: 0;
+				top: 365px;
+				transform: scale(1);
+				background-image: url(BG.png);
+				height: 988px;
+			}
+			
+			.page-4 {
+				position: relative;
+				width: 100%;
+				top: 283px;
+				background-image: url(BG.png);
+				height: 1000px;
+			}
+			.page-2 {
+				/* top: 100px; */
+				position: relative;
+				width: 100%;
+				top: 509px;
+				background-image: url(BG.png);
+			}
+
+			.page-5 {
+				/* top: 100px; */
+				position: relative;
+				width: 100%;
+				top: 980px;
+				background-image: url(BG.png);
+			}
+			.page-6 {
+				/* top: 100px; */
+				position: relative;
+				width: 100%;
+				top: 270px;
+				background-image: url(BG.png);
+			}
+
+
+
+			#A_licensed_manpower_agency_in_ {font-size: 2.3rem;top:550px;
+	
+	
+			}
+	
+	
+			.page-1{
+				z-index: -1;
+				background-color: white;
+				background-image: url("BG.png");
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				width: 1920px;
+				height: 1199px;
+			}
+			#Group_387_bnx>img{
+				position: relative;
+		left: -250px;
+		transform: scale(1.1);
+			}
+	
+			
+	
+			#Group_271_bm>img
+			{position: relative;
+		left: -200px;
+		transform: scale(1.1);}
+			
+		.grids {
+			display: grid;
+			position: relative;
+			top: 857px;
+			grid-template-columns: repeat(12,1fr);
+			padding-left: 7.143%;
+			padding-right: 7.143%;
+			grid-gap: 16px;
+		}
+	
+			.heightvar{
+				height: 970px;
+				}
+	
+				#HeaderImage {
+					width:100%;
+					position: absolute;
+						
+					
+						top: 50px; /*linked to #nav-top*/
+						height: 700px;
+					
+					}
+					span.gimmespace {
+						transform: scale(0.5);
+						position: relative;
+						left: 0px;
+						top: 0px;
+						height: 40px;
+						width: 40px;
+						background-color: #fff;
+						border-radius: 50%;
+						display: inline-block;
+					}
+					
+					.chartes {
+						justify-content: center;
+						position: relative;
+						TRANSFORM: 1;
+						margin: auto;
+						left: 220px;
+						top: -64px;
+						transform: scale(.94);
+						transform: s;
+					}
+						
+				
+		}
+	
+		
+		
+			
+	
+		@media only screen and (max-width: 1600px){
+	
+			.page-1 {
+				background-color: white;
+				background-image: url("BG 1600.png");
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				width: 1600px;
+				height: 1080px;
+			}
+			#HeaderImage {
+				width: 1650px;
+				position: absolute;
+				top: 50px;
+				height: 700px;
+			}
+	
+		}
+	
+		@media only screen and (max-width: 1440px){
+			#HeaderImage {
+				width: 1440px;
+				position: absolute;
+				top: 50px;
+				height: 700px;
+			}
+		
+		}
+	
+	
+	
+	
+		
+	
+	
+	
+	
+		@media only screen and (max-width: 1280px) {
+	
+	
+			.headingcontainer {
+				top: -50px;
+				left: -80px;
+				z-index: -100;
+				height: 255px;
+				position: relative;
+				background-color: #215EA8;
+				width: 88.28%;
+				color: white;
+				border-radius: 110px;
+			}
+			
+			.grid-cardse3 {
+				display: grid;
+				grid-template-columns: repeat(4,1fr);
+				grid-template-rows: repeat(2,240px);
+				grid-gap: 16px;
+				position: relative;
+				margin-left: 19%;
+				top: 73px;
+				margin-right: 20%;
+			}
+	
+	
+			.grid-cardse {
+				display: grid;
+				grid-template-columns: repeat(3,1fr);
+				grid-template-rows: repeat(2,240px);
+				grid-gap: 16px;
+				position: relative;
+				margin-left: 15%;
+				margin-right: 12%;
+			}
+				
+				.c1{grid-area:1/1/2/2;}
+				
+				.c2{grid-area: 1/2/2/3;}
+				.c3{grid-area: 1/3/2/4;}
+				.c4 {
+					grid-area: 2/2/3/3;
+					position: relative;
+					left: -50%;
+				}
+				.c5{grid-area: 2/3/3/4;
+					position: relative;
+					left: -50%;}
+					.spread {
+						grid-area: 3/2/4/4;
+						position: relative;
+						left: -34%;
+					}
+	
+			#Group_271_bm>img {
+				position: relative;
+				left: -101px;
+				transform: scale(1.1);
+			}
+			span.gimmespace {
+				transform: scale(0.5);
+				position: relative;
+				left: -5px;
+				/* top: 15px; */
+				height: 40px;
+				width: 40px;
+				background-color: #fff;
+				border-radius: 50%;
+				display: inline-block;
+			}
+	
+			.holder {
+				position: relative;
+				FONT-WEIGHT: 200;
+				transform: scale(1);
+				padding-top: 6px;
+				padding-bottom: 6px;
+				padding-left: 30px;
+				padding-right: 30px;
+				display: inline-block;
+				background-color: white;
+				border-radius: 0px 10px 10px 10px;
+				left: 0px;
+				top: 0px;
+				margin-right: 0px;
+				margin-bottom: 20px;
+				
+			}
+	
+	
+			.page-1{
+				background-color: white;
+				background-image: url("BG.png");
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				
+			
+				 height:1080px;
+			
+			}
+	
+			
+			
+			#Group_387_bnx>img {
+				position: relative;
+				left: -141px;
+				transform: scale(1.1);
+				
+			}
+				.grids {
+					display: grid;
+					position: relative;
+					top: 70px;
+					grid-template-columns: repeat(12,1fr);
+					padding-left: 7.143%;
+					padding-right: 7.143%;
+					grid-gap: 16px;
+				}
+			
+			#Group_490_bnw{
+				
+				top: 44px;
+				right: 270px;
+	
+			}
+			#license {
+				transform: scale(0.7867,0.7867);
+				top: 14px;
+				
+			}
+			#ID1_THANEX_web_page__HOME_ALL-_bm {
+				position: absolute;
+				width: 272px;
+				height: 93px;
+				left: 14.17%;
+				top: 24px;
+				overflow: visible;
+				transform: scale(0.7867,0.7867);
+			}
+			#nav {
+	
+				z-index: 100000;
+				position: fixed;
+				width: 100%;
+				height: 132px;
+				left: 0px;
+				background-color: white;
+				overflow: visible;
+			}
+			
+	
+			.heightvar{
+				
+	
+				
+				height: 700px;
+				
+				}
+	
+				#HeaderImage {
+					position: relative;
+					top: 50px;
+					left: -9%;
+					height: 691px;
+				}
+					.grids {
+						display: grid;
+						position: relative;
+						top: 70px;
+						grid-template-columns: repeat(12,1fr);
+						padding-left: 5.143%;
+						padding-right: 27.143%;
+						grid-gap: 16px;
+					}
+		}
+	
+	
+		@media only screen and (max-width: 1120px) {
+	
+			#HeaderImage {
+				width: 1120px;
+				position: relative;
+				top: 50px;
+				height: 700px;
+			}
+			.item-1 {
+				grid-column-start: 2;
+				grid-column-end: 6;
+			}
+	
+			
+			.page-1 {
+				background-color: white;
+				background-image: url("BG 1120.png");
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				width: 1120px;
+			
+			}
+	
+		}
+	
+	
+		
+		@media only screen and (max-width: 790px) {
+	
+			.page-1{
+				background-color: white;
+				background-image: url("BG.png");
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				
+			
+				width: 1280px; height:1080px;
+			
+			}
+			#license{
+			display:none;
+			}
+	
+			#HeaderImage {
+				position: relative;
+					
+				
+					top: 150px;
+					height: 700px;
+				
+				}
+	
+				.heightvar{
+	
+				height:700px;
+			}
+		}
+	
+	
+	
+		@media only screen and (max-width: 480px) {
+			.page-1{
+				background-color: white;
+				background-image: url("BG.png");
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				
+			
+				width: 1280px; height:1080px;
+			
+			}
+	
+			#nav{top: 40px;
+				transform: scale(1.45);
+				left: 100px;}
+			#ID1_THANEX_web_page__HOME_ALL-_bm{
+			position: absolute;
+			transform: scale(0.7,0.7);
+			left: 0;
+			}
+	
+			#nav {
+				
+				position: fixed;
+			
+				width:100%;
+				height: 115px;
+			
+				background-color: white;
+				overflow: visible;
+			}
+			#ID1_THANEX_web_page__HOME_ALL-_bm{
+				position: absolute;
+				transform: scale(1.1,1.1);
+				left:200px;
+				top: 10px;
+				}
+		
+				#Group_490_bnw{
+					top: 30px;
+					
+					
+				}
+	
+				#HeaderImage {
+					position: relative;
+						height: 700px;
+						top: 60px;
+					
+					}
+					.heightvar{
+	
+				height:700px;
+			}
+			#Group_387_bnx>img {
+				position: relative;
+				left: -141px;
+				transform: scale(1.1);
+			}
+		
+		}
+	
+		@media only screen and (max-width: 375px) {
+	
+			.headingcontainer {
+				top: -50px;
+				left: -80px;
+				z-index: -100;
+				height: 255px;
+				position: relative;
+				background-color: #215EA8;
+				width: 95.28%;
+				color: white;
+				border-radius: 110px;
+			}
+				
+	
+			.page-2 {
+				position: relative;
+				width:300%;
+				top: 0px;
+			}
+	
+			
+			#ID1_THANEX_web_page__HOME_ALL-_bm {
+		position: absolute;
+		transform: scale(1);
+		left: 250px;
+		top: 10px;
+				}
+	
+	
+			
+			#Group_387_bnx>img {
+			position: relative;
+			left: -141px;
+			transform: scale(1.1);
+		}
+	.numbertext>img{
+
+		transform:scale(0.75);
+	}
+		.page-1 {
+			background-color: white;
+			background-image: url(BG.png);
+			background-size: cover;
+			background-position: center;
+			background-attachment: fixed;
+			background-repeat: no-repeat;
+			width: 1280px;
+			height: 1080px;
+		}
+	
+	
+			
+			#ID1_THANEX_web_page__HOME_ALL-_bm{
+				position: absolute;
+				transform: scale(1.1,1.1);
+				left:271px;
+				top: 10px;
+				}
+	
+			
+	
+			#Group_490_bnw{
+				top: 30px;
+				
+				
+			}
+	
+			#nav {
+				position: fixed;
+				top: 20px;
+			height:111px;
+			transform: scale(1.45);
+			left: 60px;
+				width:100%;
+				
+				left: 0px;
+				background-color: white;
+				overflow: visible;
+			}
+		
+			#HeaderImage {
+				width: 1300px;
+				position: relative;
+				top: 60px;
+			}
+	
+			.grids {
+				display: grid;
+				position: relative;
+				top: 70px;
+				grid-template-columns: repeat(12,1fr);
+				padding-left: 5.143%;
+				padding-right: 17.143%;
+				grid-gap: 16px;
+			}
+	
+			#Group_387_bnx {
+				position: absolute;
+				width: 49px;
+				height: 56px;
+				left: -51px;
+				top: 0px;
+				overflow: visible;
+			}
+	
+		#A_licensed_manpower_agency_in_ {
+			font-size: 1.7rem;
+			top: 550px;
+		}
+	
+	}
+	
+	
+	
+		@media only screen 
+		and (device-width : 375px) 
+		and (device-height : 812px) 
+		and (-webkit-device-pixel-ratio : 3) {
+	
+	
+	
+		 }
+	
+	
+	
+	
+		
+	
