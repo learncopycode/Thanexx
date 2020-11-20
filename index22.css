@@ -1,0 +1,155 @@
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+body{font-family: 'Roboto Condensed', sans-serif;
+    margin:0;
+    
+    background-color: white;
+}
+
+
+
+    
+
+
+        .bodyall{
+            background-image: url(BG.png);
+           
+        
+        
+        
+        
+                        
+        
+        }
+.BACKGROUND2{
+    mix-blend-mode: luminosity;
+    position: absolute;
+    
+    height: 11872.5px;
+    left: 0px;
+    overflow: visible;
+    overflow-x: hidden;
+    /* Location of the image */
+  background-image: url("BACKGROUND.png");
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+ 
+}
+
+.banglatrac>img {position: relative;width: 100%;top: 16px;}
+
+.banglatrac>svg {position: relative;width: 100%;}
+
+.banglatrac {
+    margin: auto;
+    width: 250px;
+    position: relative;
+    top: 73px;
+}
+        h1{
+    
+    line-height: 16px;
+    
+    color: white;
+    
+    font-size: 0.8rem;
+    
+    text-transform: uppercase;
+    }
+    
+    
+    
+        .rel{position: relative;/* height: 224px; */}
+        .abs{position: absolute;}
+    
+        .top{width: 200px;top: 170px;left: 65px;text-align: justify;}
+    
+    
+        body{margin:0;
+    
+    
+    
+    
+        }
+        
+        .menu {
+            display: inline-block;
+            display: inline-block;
+            width: 20px;
+            position: relative;
+            left: 105px;
+            /* right: 74px; */
+            top: -1px;
+        }
+        
+        .thanexlogo {
+            display: inline-block;
+            width: 30%;
+            margin-left: 40px;
+            top: 3px;
+            position: relative;
+        }
+        
+        .nintin{
+        
+            max-width: 1920px;
+        }
+        
+        
+        nav{z-index: 5;
+            min-width:100%; 
+            position: fixed;
+            top:0;
+            background-color: white;
+            padding-top:10px;
+            padding-bottom:10px;
+            
+        }
+        
+        .background{
+        
+    background-image: url(ASSET/A-1@2x.png);
+        
+    width: 100%;
+        
+    position: relative;
+        
+    top: 51px;
+        
+    height: 265px;
+        
+    background-position: right;
+        
+    background-size: cover;
+        }
+    .navdiv2{    width: 200px;
+        position: relative;
+        margin: auto;
+    
+    }
+    
+    
+
+
+
+        
+    
