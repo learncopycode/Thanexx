@@ -6,7 +6,15 @@
     top: 169px;
     overflow: hidden;
 }
+.rights{display:inline-block;
+	width:40%;
+	position: relative;
 
+	left:15%;	
+
+}
+
+  
 #Group_1 {
     position: absolute;
     width: 349.267px;
